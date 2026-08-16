@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Pre-Orders | North Star Bakery</title>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <img src="assets/bakery-logo_c.png" alt="North Star Bakery logo" width="60" height="60">
+      <div>North Star <span>Bakery</span></div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>Contact & Pre-Orders</h1>
+      <p>Have a question, or want to reserve something for pickup? Send us a note below and we'll get back to you to
+        confirm details.</p>
+    </section>
+
+    <section>
+      <h2>Prefer to Listen?</h2>
+      <audio controls>
+        <source src="assets/bakery-welcome-mixed_c.mp3" type="audio/mpeg">
+        Your browser doesn't support embedded audio. You can
+        <a href="assets/bakery-welcome-mixed_c.mp3">download the welcome message</a> instead.
+      </audio>
+      <p><strong>Transcript:</strong> "Thanks for reaching out to North Star Bakery. Fill out the form below with what
+        you're looking for and a preferred pickup date, and our team will call or email to confirm details before
+        your order goes into the ovens."</p>
+    </section>
+
+    <section>
+
+      <div>
+        <h2>Inquiry & Pre-Order Request</h2>
+        <form action="#" method="POST">
+
+          <fieldset>
+            <legend>Your Contact Information</legend>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required minlength="2" maxlength="80" autocomplete="name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9()+\-\s]{7,20}" placeholder="(555) 555-5555"
+              autocomplete="tel">
+          </fieldset>
+
+          <fieldset>
+            <legend>Order Details</legend>
+
+            <label for="request-type">Request Type</label>
+            <select id="request-type" name="request-type" required>
+              <option value="inquiry">General Inquiry</option>
+              <option value="preorder">Pre-Order Request</option>
+              <option value="event">Event / Custom Cake</option>
+            </select>
+
+            <label for="pickup-date">Preferred Pickup Date</label>
+            <input type="date" id="pickup-date" name="pickup-date" min="2026-08-14">
+
+            <label for="items">Item Details / Message</label>
+            <textarea id="items" name="items" required maxlength="500"
+              placeholder="e.g. 2 sourdough loaves, 1 dozen croissants, a 9&quot; birthday cake... or tell us about your question"></textarea>
+
+            <label for="allergies">Allergy Notes (if applicable)</label>
+            <textarea id="allergies" name="allergies" maxlength="300"
+              placeholder="e.g. nut allergy, gluten sensitivity, no dairy..."></textarea>
+          </fieldset>
+
+          <button type="submit">Submit Request</button>
+          <p>This form does not process payment or checkout. We'll follow up by phone or email to
+            confirm availability, pricing, and pickup time.</p>
+        </form>
+      </div>
+
+      <div>
+        <h2>Visit & Contact Info</h2>
+
+        <h3>Visit Us</h3>
+        <p>5 Main Street<br>
+          Seattle, WA<br>
+          Street parking available along Main Street</p>
+
+        <h3>Hours of Operation</h3>
+        <p>
+          Tuesday - Friday: 7:00am - 6:00pm<br>
+          Saturday - Sunday: 8:00am - 4:00pm<br>
+          Monday: Closed
+        </p>
+
+        <h3>Reach Us Directly</h3>
+        <p>
+          Phone: (555) 214-7788<br>
+          Email: hello@northstarbakery.example
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 North Star Bakery, Seattle, Washington.</p>
+    <p><a href="contact.html">Get in touch</a> &middot; Open Tue-Sun</p>
+  </footer>
+
+</body>
+
+</html>
