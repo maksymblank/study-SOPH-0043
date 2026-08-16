@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products | North Star Bakery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -26,81 +28,81 @@
 
   <main>
 
-    <div>
+    <div class="page-intro">
       <h1>Our Baked Goods</h1>
       <p>Availability changes with the season, so call ahead or pre-order to make sure we have what you want.</p>
-      <div>Prices are ranges based on size and ingredients. We don't offer online checkout. Place inquiries
+      <div class="notice">Prices are ranges based on size and ingredients. We don't offer online checkout. Place inquiries
         and pre-orders through our <a href="contact.html">contact page</a> or by calling the shop.</div>
       <img src="assets/bakery-bread_c.png" alt="An assortment of fresh baked bread loaves cooling on a rack">
     </div>
 
     <section>
 
-      <div>
+      <div class="product-category">
         <h2>Breads</h2>
         <figure>
           <img src="assets/bakery-signature-loaf_c.png" alt="A rustic round sourdough loaf with a deeply scored crust">
           <figcaption>Signature Loaf - our classic sourdough, baked fresh every day.</figcaption>
         </figure>
-        <div>
-          <div>
-            <h3>Classic Sourdough <span>$8-$10</span></h3>
+        <div class="product-grid">
+          <div class="product-card">
+            <h3>Classic Sourdough <span class="price">$8-$10</span></h3>
             <p>Our everyday loaf, made from a natural starter.</p>
           </div>
-          <div>
-            <h3>Seeded Whole Wheat <span>$7-$9</span></h3>
+          <div class="product-card">
+            <h3>Seeded Whole Wheat <span class="price">$7-$9</span></h3>
             <p>Whole wheat loaf topped with sunflower, flax, and sesame seeds.</p>
           </div>
-          <div>
-            <h3>Rosemary Olive Oil Loaf <span>$8-$10</span></h3>
+          <div class="product-card">
+            <h3>Rosemary Olive Oil Loaf <span class="price">$8-$10</span></h3>
             <p>Soft loaf made with olive oil and fresh rosemary. Good for sandwiches.</p>
           </div>
-          <div>
-            <h3>Seasonal Specialty Loaf <span>$9-$12</span></h3>
+          <div class="product-card">
+            <h3>Seasonal Specialty Loaf <span class="price">$9-$12</span></h3>
             <p>A rotating loaf with seasonal ingredients, currently honey fig and rosemary.</p>
           </div>
         </div>
       </div>
 
-      <div>
+      <div class="product-category">
         <h2>Pastries</h2>
-        <div>
-          <div>
-            <h3>Butter Croissant <span>$4-$5</span></h3>
+        <div class="product-grid">
+          <div class="product-card">
+            <h3>Butter Croissant <span class="price">$4-$5</span></h3>
             <p>Made by hand and baked fresh each morning.</p>
           </div>
-          <div>
-            <h3>Almond Croissant <span>$5-$6</span></h3>
+          <div class="product-card">
+            <h3>Almond Croissant <span class="price">$5-$6</span></h3>
             <p>Filled with almond cream, topped with sliced almonds and powdered sugar.</p>
           </div>
-          <div>
-            <h3>Cinnamon Morning Bun <span>$4-$6</span></h3>
+          <div class="product-card">
+            <h3>Cinnamon Morning Bun <span class="price">$4-$6</span></h3>
             <p>Rolled in cinnamon sugar and baked until caramelized.</p>
           </div>
-          <div>
-            <h3>Fruit Danish <span>$5-$6</span></h3>
+          <div class="product-card">
+            <h3>Fruit Danish <span class="price">$5-$6</span></h3>
             <p>Pastry with a custard center and seasonal fruit topping.</p>
           </div>
         </div>
       </div>
 
-      <div>
+      <div class="product-category">
         <h2>Cakes</h2>
-        <div>
-          <div>
-            <h3>Layer Cake Slice <span>$6-$8</span></h3>
+        <div class="product-grid">
+          <div class="product-card">
+            <h3>Layer Cake Slice <span class="price">$6-$8</span></h3>
             <p>By-the-slice cakes, flavor changes weekly.</p>
           </div>
-          <div>
-            <h3>6" Celebration Cake <span>$35-$50</span></h3>
+          <div class="product-card">
+            <h3>6" Celebration Cake <span class="price">$35-$50</span></h3>
             <p>A small cake for birthdays and gatherings. Custom flavors available.</p>
           </div>
-          <div>
-            <h3>9" Celebration Cake <span>$60-$85</span></h3>
+          <div class="product-card">
+            <h3>9" Celebration Cake <span class="price">$60-$85</span></h3>
             <p>Our most popular size, serves 1-4 people.</p>
           </div>
-          <div>
-            <h3>Custom Event Cake <span>$90-$250+</span></h3>
+          <div class="product-card">
+            <h3>Custom Event Cake <span class="price">$90-$250+</span></h3>
             <p>Tiered cakes for weddings and larger events. Price depends on size and design, ask for a quote.</p>
           </div>
         </div>
@@ -108,10 +110,10 @@
 
     </section>
 
-    <div>
+    <div class="cta-banner">
       <h2>Ready to order?</h2>
       <p>Submit a pre-order request or inquiry and we'll follow up to confirm details, pricing, and pickup time.</p>
-      <a href="contact.html">Start a Pre-Order</a>
+      <a class="btn" href="contact.html">Start a Pre-Order</a>
     </div>
 
   </main>
